@@ -1,6 +1,6 @@
 public class Matrix {
 
-    public static boolean isSquareMatrix(int[][] matrix) {
+    public boolean isSquareMatrix(int[][] matrix) {
         if (matrix == null) {
             return false;
         }
@@ -12,7 +12,7 @@ public class Matrix {
         return true;
     }
 
-    public static double getAverageCountArray(int[] array){
+    public double getAverageCountArray(int[] array){
         double average = 0;
         int sum = 0;
         for (int i : array) {
